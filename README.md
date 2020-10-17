@@ -1,0 +1,2 @@
+# v2ray_for_embedded_device
+V2RAY编译为可以在路由器设备运行的可执行程序
