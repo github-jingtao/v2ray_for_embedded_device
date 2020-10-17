@@ -5,9 +5,11 @@
 - 解压文件
 `tar zxf go${version}.linux-amd64.tar.gz -C /usr/local`
 - 添加Gopath路径
-`echo 'export GOROOT=/usr/local/go'>>~/.bashrc`
-`echo 'export PATH=$PATH:$GOROOT/bin'>>~/.bashrc`
-`echo 'export GOPATH=$HOME'>>~/.bashrc`
+```bash
+echo 'export GOROOT=/usr/local/go'>>~/.bashrc
+echo 'export PATH=$PATH:$GOROOT/bin'>>~/.bashrc
+echo 'export GOPATH=$HOME'>>~/.bashrc
+```
 - 使环境变量生效
 `source ~/.bashrc`
 
